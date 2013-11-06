@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>LinkLater -- simple link sharing</title>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+  <script src='https://cdn.firebase.com/v0/firebase.js'></script>
+  <script src='app.js'></script>
+  <link href="app.css" rel="stylesheet" type="text/css">
+  <link href='http://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <div id="container">
+    <header>
+      <h1>LinkLater</h1>
+      <p>a simple link saving app.</p>
+    </header>
+    <table>
+      <tr>
+        <td><label for="t">title:</label></td>
+        <td><input id="t" type="title"></td>
+        <td><label for="u">url:</label></td>
+        <td><input id="u" type="text" size="50"></td>
+        <td><input id="submit" type="button" value="submit link"></td>
+      </tr>
+    </table>
+    <div id="links">
+    </div>
+  </div>
+</body>
+</html>
+
