@@ -38,8 +38,28 @@ label {
 }
 
 #links .linky {
-  margin:0 0 5 50;
+  position:relative;
+  margin:0 0 5 20;
   /*background: black;*/
+}
+
+#links .linky .like {
+  position: relative;
+  width:10px;
+  left:-20px;
+  top: 35px;
+  font-size: 2em;
+}
+
+#links .linky .dislike {
+  position: relative;
+  width:10px;
+  left:-20px;
+  top: 25px;
+}
+
+.like:hover, .dislike:hover {
+  cursor:hand;
 }
 
 
